@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header{
+    background: rgba(255, 165, 2, 0.50);
+}
+body{
+    background-color: whitesmoke;
+    /* border: 2px solid red;
+    overflow-x: hidden; */
+}
+  
+ul:not(.active):hover{
+    color: #3C64B1;
+}
+
+.sign{
+    color: #3C64B1;
+}
+button{
+    background-color: #F73C6B;
+}
+.butt{
+    border-color: #F73C6B;
+}
+.butt1{
+    background-color: #FFD281;
+}
+.butt2{
+    background: rgba(46, 213, 115, 0.50);
+}
+.block{
+    background: none;
+}
+.butt3{
+ background-color: #F73C6B;
+}
+.jum{
+   background-color:  rgba(255, 71, 87, 0.50);
+
+
+}
+.lorem{
+    color: #737B7D
+}
+.backg{
+    background-color: #FFBD6D;
+}
+
+@media screen and (max-width: 1100px) {
+    .we{
+  @apply text-4xl mt-12 pt-12
+    }
+    .scra{
+     @apply mt-0 
+    } 
+    .ju{
+     @apply bottom-36
+ }
+ .noo{
+    @apply pl-4
+ }
+ }
+ 
+
+@media screen and (max-width: 500px) {
+    .jxx{
+    grid-template-columns: 1fr;
+}
+.wed{
+    font-size: 30px
+}
+.we{
+    @apply text-center mt-5;
+    font-size: 42px
+}
+.scra{
+    @apply  p-3 pl-10;
+    font-size: 24px
+}
+.suu{
+    @apply mb-8
+}
+.foo{
+    @apply   m-0 gap-7 pt-0 mt-0 flex-wrap ;
+}
+.pay{
+    @apply p-3
+}
+.elit{
+    @apply mt-10
+}
+.simp{
+    @apply p-2 text-xl pl-3
+}
+.line{
+    @apply left-36
+}
+.scraa{
+    @apply text-2xl;
+}
+.hj, .hg{
+    @apply mt-0
+}
+.ipsum{
+    @apply grid-cols-1
+   }
+.jb, .abu{
+    display: none;
+}
+.anim{
+    @apply p-0 gap-16
+}
+.stack{
+   @apply flex-col mt-12
+}
+.YEA{
+    @apply grid-cols-1 m-5 pl-8 gap-0
+}
+.ju{
+    @apply bottom-6
+}
+.why{
+    /* @apply  */
+}
+.span{
+    width: 50%;
+}
+.span::placeholder{
+    font-size: 12.5px;
+  @apply font-bold
+}
+.yes{
+    @apply ml-6 w-96;
+}
+
+.butt1, .butt2, .butt3{
+    @apply w-80
+}
+.nft{
+  width: 100%;
+  margin: 0;
+   margin-top: 20px;
+   padding-top: 20px;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+.yes{
+@apply ml-2 w-60
+}
+.butt1, .butt2, .butt3{
+    @apply w-60
+}
+}
+    
