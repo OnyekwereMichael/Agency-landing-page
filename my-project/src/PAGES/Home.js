@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img from '../ASSESETS/eGENCY.png'
 import bike from '../ASSESETS/bike.png'
-import { FaBars } from 'react-icons/fa';
+import { BiMenuAltRight } from 'react-icons/bi';
 
 function Home() {
-    const x = "michael";
+    const [Menuopen, setMenuopen] = useState(false);
+    const getMenuStyles = (Menuopen) => {
+        if(document.documentElement.clientWidth <= 800){
+            console.log({right: !Menuopen && "-100%"});
+            return{right: !Menuopen && "-100%"}
+        }
+    }
   return (
 <header>
     <section className="flex justify-between items-center p-5">
        <img src={img} alt="" />
-
-    <div className='flex gap-4 font-semibold pointer abu'>
+    <div className='flex gap-4 font-semibold pointer wawu' style={getMenuStyles(Menuopen)} >
         <a href="">About</a>
         <a href="">Product</a>
         <a href="">Contact</a>
@@ -23,9 +28,9 @@ function Home() {
            <button className='text-white p-1 rounded-t rounded-b font-semibold'>Sign up</button>
         </div>
 
-        <button className='bars block md:hidden sm:block' >
-        <FaBars/>
-    </button>
+        <button className='bars block md:hidden sm:block' onClick={()=>setMenuopen((prev)=>!prev)} >
+            <BiMenuAltRight size={30}/>
+        </button>
     </section>
 
    

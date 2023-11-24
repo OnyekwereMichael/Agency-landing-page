@@ -7,14 +7,12 @@ header{
 }
 body{
     background-color: whitesmoke;
-    /* border: 2px solid red;
-    overflow-x: hidden; */
+    /* border: 2px solid red; */
+    /* overflow-x: hidden; */
 }
-  
 ul:not(.active):hover{
     color: #3C64B1;
 }
-
 .sign{
     color: #3C64B1;
 }
@@ -62,9 +60,25 @@ button{
     @apply pl-4
  }
  }
- 
+ @media screen and (max-width: 300px) {
+.yes{
+@apply ml-2 w-10;
+}
+.butt1, .butt2, .butt3{
+    @apply w-60
+}
+}
 
 @media screen and (max-width: 500px) {
+    .wawu {
+        display: none;
+        flex: none;
+        /* position: absolute;
+        right: 4rem; */
+        /* top: 3rem; */
+         background-color: black;
+         color: white;
+    }
     .jxx{
     grid-template-columns: 1fr;
 }
@@ -147,12 +161,5 @@ button{
 
 }
 
-@media screen and (max-width: 300px) {
-.yes{
-@apply ml-2 w-60
-}
-.butt1, .butt2, .butt3{
-    @apply w-60
-}
-}
+
     

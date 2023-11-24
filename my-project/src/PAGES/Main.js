@@ -53,9 +53,9 @@ function Main() {
 
         <section className='grid grid-cols-2 justify-between items-center p-12 gap-11 ipsum'> 
             <div className='flex flex-col gap-7'>
-                <p className='mt-10 bg-blue-800 p-4 ml-4 rounded-t rounded-b nft'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus<br/>recusandaerepellat nam. Facilis pariatur assumenda iusto. Vel hic molestia</p>
-                <p className='mt-10 bg-gray-200 ml-4 rounded-t rounded-b p-4 nft'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus<br/>recusandae repellat nam. Facilis pariatur assumenda iusto. Vel hic molestia</p>
-                <p className='mt-10 bg-gray-200 ml-4 rounded-t rounded-b p-4 nft'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus<br/> recusandae repellat nam. Facilis pariatur assumenda iusto. Vel hic molestia</p>
+                <p className='mt-10 bg-blue-800 p-4 ml-4 rounded-t rounded-b nft text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus<br/>recusandaerepellat nam. Facilis pariatur assumenda iusto. Vel hic molestia</p>
+                <p className='mt-10 bg-white ml-4 rounded-t rounded-b p-4 nft shadow-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus<br/>recusandae repellat nam. Facilis pariatur assumenda iusto. Vel hic molestia</p>
+                <p className='mt-10 bg-white ml-4 rounded-t rounded-b p-4 nft shadow-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus<br/> recusandae repellat nam. Facilis pariatur assumenda iusto. Vel hic molestia</p>
             </div>
 
             <img src={reader} alt=""/>
